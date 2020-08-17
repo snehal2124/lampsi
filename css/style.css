@@ -422,7 +422,7 @@ footer a:focus {
 
 @media only screen and (max-width: 600px) {
   footer {
-    position: absolute;
+    position: relative;
     padding-bottom: 30px;
     margin-top: 30px;
     right: 0;
@@ -442,7 +442,7 @@ footer a:focus {
 
 @media only screen and (max-width: 400px) {
 	footer {
-		position: absolute;
+		position: relative;
 		padding-bottom: 15px;
 		margin-top: 30px;
 		right: 0;
@@ -737,3 +737,34 @@ footer a:focus {
   box-sizing: border-box;
   max-width: 60%;
 }
+
+
+.intro-container{
+  flex-direction: column;
+  box-sizing: border-box;
+  display: flex;
+  place-content: center;
+  align-items: center;
+  margin-bottom: 12%;
+}
+
+.intro-video{
+  flex: 1 1 100%;
+  box-sizing: border-box;
+  max-width: 80%;
+}
+
+.copyright-attributes{
+  flex: 1 1 100%;
+  max-width: 80%;
+  font-size: 10px;
+  color: grey;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  margin-top: 1%;
+}
+
+.copyright-attributes a{
+  color: grey;
+}
+
+
